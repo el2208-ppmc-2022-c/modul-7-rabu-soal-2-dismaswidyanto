@@ -1,0 +1,8 @@
+terima input integer 1
+cetak integer 1
+jump 1
+terima input integer 2
+jumlahkan integer 1 ke 2
+cetak integer 2
+jump 3
+keluar program
