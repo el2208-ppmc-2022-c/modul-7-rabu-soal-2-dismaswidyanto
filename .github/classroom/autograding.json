@@ -55,7 +55,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "codong\r\ncode.txt\r\n10\r\n2",
-      "output": "File tidak bisa dibuka\r\nLine tidak valid\r\nLine 2: cetak integer 1\r\nLine selanjutnya: 3",
+      "output": "Line 2: cetak integer 1\r\nLine selanjutnya: 3",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -95,7 +95,7 @@
       "setup": "make soal-02",
       "run": "./soal-02",
       "input": "code.txt\r\n13\r\n8",
-      "output": "Line tidak valid\r\nLine 8: keluar program\r\nLine selanjutnya: 0",
+      "output": "Line 8: keluar program\r\nLine selanjutnya: 0",
       "comparison": "included",
       "timeout": 1,
       "points": 10
