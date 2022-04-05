@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n1",
+      "output": "Line 1: terima input integer 1\r\nLine selanjutnya: 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n2",
+      "output": "Line 2: cetak integer 1\r\nLine selanjutnya: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n3",
+      "output": "Line 3: jump 1\r\nLine selanjutnya: 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n4",
+      "output": "Line 4: terima input integer 2\r\nLine selanjutnya: 5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n7",
+      "output": "Line 7: jump 3\r\nLine selanjutnya: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "codong\r\ncode.txt\r\n10\r\n2",
+      "output": "File tidak bisa dibuka\r\nLine tidak valid\r\nLine 2: cetak integer 1\r\nLine selanjutnya: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n5",
+      "output": "Line 5: jumlahkan integer 1 ke 2\r\nLine selanjutnya: 6",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n8",
+      "output": "Line 8: keluar program\r\nLine selanjutnya: 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n6",
+      "output": "Line 6: cetak integer 2\r\nLine selanjutnya: 7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "code.txt\r\n13\r\n8",
+      "output": "Line tidak valid\r\nLine 8: keluar program\r\nLine selanjutnya: 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
